@@ -1,0 +1,179 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 3260px; /*1160*/
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 2850px;
+	background-color: var(--back);
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.zg_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	top: 35px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: left;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 185px;
+	top: 110px;
+	bottom: 90px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.img_yap{
+	position: absolute;
+	right: 35px;
+	top: 110px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+
+#job-android{background-image: var(--jobs_android);}
+#job-ios{background-image: var(--jobs_ios);}
+#job-net{background-image: var(--jobs_net);}
+#job-front{background-image: var(--jobs_front);}
+#job-back{background-image: var(--jobs_back);}
+#job-qa{background-image: var(--jobs_qa);}
+#job-uxui{background-image: var(--jobs_uxui);}
+
+.dbl_text{
+	position: absolute;
+	height: 30px;
+	left: 40px;
+	right: 35px;
+	bottom: 35px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--sfont);
+	text-align: left;
+	cursor: pointer;
+}
+
+.dbl_text:hover{
+	color: var(--ffont);
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.listn{
+	position: relative;
+	width: 982.5px;
+	margin-top: 35px;
+}
+
+#list1{height: 350px;}
+#list2{height: 375px;}
+#list3{height: 350px;}
+#list4{height: 350px;}
+#list5{height: 350px;}
+#list6{height: 400px;}
+#list7{height: 375px;}
+
+.listr{
+	position: absolute;
+	width: 482.5px;
+	bottom: 0px;
+	top: 90px;
+	right: 0px;
+}
+
+.zga_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+#zga1{
+	top: 35px;
+}
+#zga2{
+	top: 785px;
+}
+
+.flt_text{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	top: 110px;
+	height: 630px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+}
+
+.ch{
+	position: absolute;
+	left: 40px;
+}
+
+#ch1{top: 164px;}
+#ch2{top: 189px;}
+#ch3{top: 213px;}
+#ch4{top: 238px;}
+#ch5{top: 339px;}
+#ch6{top: 364px;}
+#ch7{top: 389px;}
+#ch8{top: 490px;}
+#ch9{top: 515px;}
+#ch10{top: 540px;}
+#ch11{top: 565px;}
+#ch12{top: 665px;}
+#ch13{top: 690px;}
+#ch14{top: 715px;}
+
+#fback{
+	position: absolute;
+	height: 50px;
+	left: 35px;
+	width: 412.5px;
+	top: 850px;
+	background-color: var(--purple);
+}
+
+#fback:hover{
+	background-color: var(--active);
+}
+
+#fback:active{
+	background-color: var(--yellow);
+}

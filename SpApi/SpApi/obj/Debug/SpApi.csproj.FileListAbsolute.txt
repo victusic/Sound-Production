@@ -1,0 +1,200 @@
+D:\Диплом\SpApi\SpApi\bin\SpApi.dll.config
+D:\Диплом\SpApi\SpApi\bin\SpApi.dll
+D:\Диплом\SpApi\SpApi\bin\SpApi.pdb
+D:\Диплом\SpApi\SpApi\bin\roslyn\csc.exe
+D:\Диплом\SpApi\SpApi\bin\roslyn\csc.exe.config
+D:\Диплом\SpApi\SpApi\bin\roslyn\csc.rsp
+D:\Диплом\SpApi\SpApi\bin\roslyn\csi.exe
+D:\Диплом\SpApi\SpApi\bin\roslyn\csi.exe.config
+D:\Диплом\SpApi\SpApi\bin\roslyn\csi.rsp
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Диплом\SpApi\SpApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.AppContext.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Console.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Globalization.Calendars.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.IO.Compression.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Net.Http.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Net.Sockets.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.ValueTuple.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Xml.XPath.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Диплом\SpApi\SpApi\bin\roslyn\vbc.exe
+D:\Диплом\SpApi\SpApi\bin\roslyn\vbc.exe.config
+D:\Диплом\SpApi\SpApi\bin\roslyn\vbc.rsp
+D:\Диплом\SpApi\SpApi\bin\roslyn\VBCSCompiler.exe
+D:\Диплом\SpApi\SpApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Диплом\SpApi\SpApi\bin\Antlr3.Runtime.dll
+D:\Диплом\SpApi\SpApi\bin\EntityFramework.dll
+D:\Диплом\SpApi\SpApi\bin\EntityFramework.SqlServer.dll
+D:\Диплом\SpApi\SpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Диплом\SpApi\SpApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Диплом\SpApi\SpApi\bin\Newtonsoft.Json.dll
+D:\Диплом\SpApi\SpApi\bin\System.Net.Http.Formatting.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Helpers.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Http.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Http.WebHost.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Mvc.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Optimization.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.Razor.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.Deployment.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.dll
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.Razor.dll
+D:\Диплом\SpApi\SpApi\bin\WebGrease.dll
+D:\Диплом\SpApi\SpApi\bin\EntityFramework.xml
+D:\Диплом\SpApi\SpApi\bin\EntityFramework.SqlServer.xml
+D:\Диплом\SpApi\SpApi\bin\Newtonsoft.Json.xml
+D:\Диплом\SpApi\SpApi\bin\System.Net.Http.Formatting.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Helpers.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Http.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Http.WebHost.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Mvc.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Optimization.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.Razor.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.Deployment.xml
+D:\Диплом\SpApi\SpApi\bin\System.Web.WebPages.Razor.xml
+D:\Диплом\SpApi\SpApi\bin\Antlr3.Runtime.pdb
+D:\Диплом\SpApi\SpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Диплом\SpApi\SpApi\bin\ru\EntityFramework.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Helpers.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Http.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Mvc.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Optimization.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.Razor.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.WebPages.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Диплом\SpApi\SpApi\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Диплом\SpApi\SpApi\obj\Debug\SpApi.csproj.AssemblyReference.cache
+D:\Диплом\SpApi\SpApi\obj\Debug\SpApi.csproj.CoreCompileInputs.cache
+D:\Диплом\SpApi\SpApi\obj\Debug\SpApi.dll
+D:\Диплом\SpApi\SpApi\obj\Debug\SpApi.pdb
+D:\Диплом\SPApi\SpApi\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\SpApi.dll.config
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\SpApi.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\SpApi.pdb
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csc.exe
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csc.exe.config
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csc.rsp
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csi.exe
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csi.exe.config
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\csi.rsp
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.AppContext.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Console.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Globalization.Calendars.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.IO.Compression.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.IO.FileSystem.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Net.Http.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Net.Sockets.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.ValueTuple.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Xml.XPath.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\vbc.exe
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\vbc.exe.config
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\vbc.rsp
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\VBCSCompiler.exe
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Antlr3.Runtime.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\EntityFramework.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\EntityFramework.SqlServer.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Microsoft.Web.Infrastructure.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Newtonsoft.Json.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Net.Http.Formatting.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Helpers.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Http.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Http.WebHost.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Mvc.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Optimization.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Razor.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.Deployment.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.Razor.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\WebGrease.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\EntityFramework.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\EntityFramework.SqlServer.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Newtonsoft.Json.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Net.Http.Formatting.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Helpers.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Http.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Http.WebHost.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Mvc.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Optimization.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.Razor.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.Deployment.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\System.Web.WebPages.Razor.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Antlr3.Runtime.pdb
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\EntityFramework.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Net.Http.Formatting.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Helpers.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Http.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Http.WebHost.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Mvc.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Optimization.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.Razor.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.WebPages.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\obj\Debug\SpApi.csproj.AssemblyReference.cache
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\obj\Debug\SpApi.csproj.CoreCompileInputs.cache
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\obj\Debug\SpApi.dll
+D:\Диплом\OldAoi\Новая папка\SpApi\SpApi\obj\Debug\SpApi.pdb

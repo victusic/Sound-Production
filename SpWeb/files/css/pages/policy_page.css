@@ -1,0 +1,86 @@
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 40px;
+	top: 40px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+/*policy*/
+
+.listr{
+	position: absolute;
+	width: 1500px;
+	top: 90px;
+	height: 4160px;
+}
+
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 4650px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 4240px;
+	background-color: var(--back);
+}
+
+/*news*/
+
+.listr2{
+	position: absolute;
+	width: 1500px;
+	top: 90px;
+	height: 680px;
+}
+
+.base2{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 50px;
+}
+
+.back2{
+	position: relative;
+	width: 100%;
+	height: 770px;
+	background-color: var(--back);
+}
+
+.dt_text{
+	position: absolute;
+	right: 35px;
+	width: 100px;
+	height: 20px;
+	bottom: 35px;
+	font-family: "Sochi";
+	font-size: 14px;
+	color: var(--ffont);
+	text-align: right;
+}

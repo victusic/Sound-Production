@@ -1,0 +1,953 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 1275px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 870px;
+	background-color: var(--back);
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.zg_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	top: 55px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: left;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 190px;
+	top: 130px;
+	bottom: 90px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.listr{
+	position: relative;
+	margin-top: 35px;
+	height: 780px;
+}
+
+.listn{
+	position: absolute;
+	width: 482.5px;
+	bottom: 0px;
+	top: 90px;
+	right: 0px;
+}
+
+.listview_plate{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	top: 5px;
+	height: 0px;
+	/*background-color: red;*/
+	display: none;
+}
+
+.listview{
+	position: relative;
+	width: 100%;
+	height: 185px;
+	background-color: var(--back);
+	margin-top: 30px;
+	/*border-radius: 30px;*/
+}
+
+.listview:hover{
+	background-color: var(--active);
+}
+.listview:active{
+	background-color: var(--purple);
+}
+
+.lv_img{
+	position: absolute;
+	width: 145px;
+	height: 145px;
+	left: 20px;
+	top: 20px;
+	background-color: green;
+}
+
+.lv_name{
+	position: absolute;
+	height: 35px;
+	left: 180px;
+	right: 20px;
+	top: 20px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 28px;
+	color: var(--sfont);
+}
+
+.lv_group{
+	position: absolute;
+	width: 550px;
+	height: 80px;
+	left: 180px;
+	top: 75px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 13.5px;
+	color: var(--ffont);
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
+
+.lv_area{
+	position: absolute;
+	width: 572px;
+	height: 35px;
+	left: 755px;
+	top: 75px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
+
+.lv_phone{
+	position: absolute;
+	width: 125px;
+	height: 20px;
+	left: 755px;
+	bottom: 20px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+}
+
+.lv_mail{
+	position: absolute;
+	width: 422px;
+	height: 20px;
+	left: 905px;
+	bottom: 20px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+}
+
+.lv_links{
+	position: absolute;
+	width: 60px;
+	height: 90px;
+	right: 20px;
+	bottom: 20px;
+	background-color: var(--panl);
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.links{
+	margin: 2px;
+	width: 26px;
+	height: 26px;
+	/*background-color: red;*/
+}
+
+.link_spotify{
+	background-image: url("../../img/links_logo/spotify.png");
+	background-size: cover;
+}
+
+.link_apple{
+	background-image: url("../../img/links_logo/apple.png");
+	background-size: cover;
+}
+
+.link_deezer{
+	background-image: url("../../img/links_logo/deezer.png");
+	background-size: cover;
+}
+
+.link_youtube{
+	background-image: url("../../img/links_logo/youtube.png");
+	background-size: cover;
+}
+
+.link_youtubemusic{
+	background-image: url("../../img/links_logo/youtube_music.png");
+	background-size: cover;
+}
+
+.link_yandex{
+	background-image: url("../../img/links_logo/yandex.png");
+	background-size: cover;
+}
+
+.avatar-none{
+	position: relative;
+	width: 145px;
+	height: 145px;
+	background: url("../../img/avatar/group.png");
+	background-size: cover;
+}
+
+#list2{
+	display: none;
+	height: 1685px;
+}
+#list3{
+	display: none;
+	height: 1685px;
+}
+
+.list2_name{
+	position: absolute;
+	top: 35px;
+	left: 110px;
+	right: 35px;
+	height: 40px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+}
+
+.list2_end{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	width: 40px;
+	height: 40px;
+	background-color: var(--blue);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	cursor: pointer;
+	text-align: center;
+}
+
+.list2_end:hover{
+	color: var(--ffont);
+}
+
+.list2_inp_name{
+	position: absolute;
+	top: 120px;
+	left: 35px;
+	width: 550px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_genre{
+	position: absolute;
+	top: 120px;
+	right: 35px;
+	width: 320px;
+	height: 25px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_group{
+	position: absolute;
+	top: 185px;
+	left: 35px;
+	width: 912.5px;
+	height: 250px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_about_area{
+	position: absolute;
+	top: 490px;
+	right: 35px;
+	width: 652.5px;
+	height: 216px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_img{
+	position: absolute;
+	top: 490px;
+	left: 35px;
+	width: 220px;
+	height: 220px;
+	background-color: var(--back);
+}
+
+.list2_phone{
+	position: absolute;
+	top: 760px;
+	right: 35px;
+	width: 220px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_mail{
+	position: absolute;
+	top: 760px;
+	left: 35px;
+	width: 648px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_spotify{
+	position: absolute;
+	top: 835px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_apple{
+	position: absolute;
+	top: 910px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_deezer{
+	position: absolute;
+	top: 985px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_yandex{
+	position: absolute;
+	top: 1060px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_youtube{
+	position: absolute;
+	top: 1135px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_youtubemusic{
+	position: absolute;
+	top: 1210px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_dimg{
+	position: absolute;
+	top: 1285px;
+	left: 35px;
+	width: 908px;
+	bottom: 35px;
+	background-color: var(--back);
+}
+
+.flex_dimg{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	height: 128px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dimg{
+	width: 126px;
+	height: 126px;
+	margin-left: 20px;
+	border-width: 1px;
+	border-color: var(--sfont);
+	border-style: dashed;
+}
+
+#dimg1{
+	margin-left: 0px;
+}
+
+#dimg11{
+	margin-left: 0px;
+}
+
+.flex_dimg_btn{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 168px;
+	height: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.dimg_btn{
+	width: 128px;
+	height: 20px;
+	margin-left: 20px;
+	border: none;
+	background-color: var(--pink);
+	font-family: "Sochi";
+	font-size: 14px;
+	color: var(--ffont);
+}
+
+#dimg1_btn{
+	margin-left: 0px;
+}
+
+#dimg11_btn{
+	margin-left: 0px;
+}
+
+.upload-file__wrapper{
+	position: absolute;
+	left: 19px;
+	right: 19px;
+	top: 207px;
+	/*19*/
+	bottom: 69px;
+	/*background-color: red;*/
+}
+
+#loadfiles_dimg{
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	top: 10px;
+	left: 235px;
+}
+
+#load_dimg{
+	position: absolute;
+	width: 400px;
+	height: 30px;
+	bottom: 10px;
+	left: 235px;
+}
+
+#preloader_group{
+	position: absolute;
+	top: 225px;
+	left: 620px;
+	width: 260px;
+	height: 260px;
+}
+
+.list2_txt{
+	position: absolute;
+	width: 220px;
+	height: 18px;
+	font-family: "Sochi";
+	font-size: 14px;
+	color: var(--sfont);
+}
+
+/*42*/
+#l2_inp_name{left: 35px; top: 100px;}
+#l2_genre{left: 629px; top: 100px;}
+#l2_group{left: 35px; top: 167px;}
+#l2_img{left: 35px; top: 470px;}
+#l2_aarea{left: 290px; top: 470px;}
+#l2_mail{left: 35px; top: 740px;}
+#l2_phone{right: 38px; top: 740px;}
+#l2_spotify{left: 35px; top: 815px;}
+#l2_apple{left: 35px; top: 890px;}
+#l2_deezer{left: 35px; top: 965px;}
+#l2_yandex{left: 35px; top: 1040px;}
+#l2_youtube{left: 35px; top: 1115px;}
+#l2_youtubemusic{left: 35px; top: 1190px;}
+#l2_dimg{left: 35px; top: 1265px;}
+
+#l3_inp_name{left: 35px; top: 100px;}
+#l3_genre{left: 629px; top: 100px;}
+#l3_group{left: 35px; top: 167px;}
+#l3_img{left: 35px; top: 470px;}
+#l3_aarea{left: 290px; top: 470px;}
+#l3_mail{left: 35px; top: 740px;}
+#l3_phone{right: 38px; top: 740px;}
+#l3_spotify{left: 35px; top: 815px;}
+#l3_apple{left: 35px; top: 890px;}
+#l3_deezer{left: 35px; top: 965px;}
+#l3_yandex{left: 35px; top: 1040px;}
+#l3_youtube{left: 35px; top: 1115px;}
+#l3_youtubemusic{left: 35px; top: 1190px;}
+#l3_dimg{left: 35px; top: 1265px;}
+
+#listn{
+	display: none;
+}
+
+#listn3{
+	display: none;
+}
+
+.paste_mail{
+	left: 662px;
+}
+
+.paste_phone{
+	right: 40px;
+}
+
+.past_txt{
+	position: absolute;
+	top: 762.25px;
+	width: 20px;
+	height: 20px;
+	font-size: 16px;
+	font-family: "Sochi";
+	color: var(--sfont);
+	text-align: center;
+	cursor: pointer;
+}
+
+.past_txt:hover{
+	color: var(--ffont);	
+}
+
+.listview_plus{
+	position: relative;
+	width: 100%;
+	height: 60px;
+	background-color: var(--back);
+	margin-top: 30px; 
+	border-color: var(--ffont);
+	cursor: pointer;
+}
+
+.listview_plus:hover{
+	background-color: var(--active);
+}
+
+.plus_center{
+	position: absolute;
+	width: 100%;
+	top: 20%;
+	height: 50%;
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+#listr{
+	width: 1500px;
+}
+
+#list2{
+	width: 982.5px;
+}
+
+#list3{
+	width: 982.5px;
+}
+
+.logo_img{
+	position: relative;
+	width: 145px;
+	height: 145px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.logo_img_list{
+	position: relative;
+	width: 220px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.avatar-none-big{
+	position: relative;
+	width: 220px;
+	height: 220px;
+	background: url("../../img/avatar/group.png");
+	background-size: cover;
+}
+
+/*загрузка*/
+
+/**/
+.upload-file__input {
+	opacity: 0;
+	position: absolute;
+	z-index: -1;
+	overflow: hidden;
+	width: 0.4px;
+	height: 0.4px;
+}
+/**/
+.upload-file__label {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	border-width: 1px;
+	border-color: var(--sfont);
+	border-style: dashed;
+	cursor: pointer;
+}
+.upload-file__text{
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--sfont);
+}
+/**/
+/**/
+.upload-file__label:hover .upload-file__text {
+	color: var(--ffont);
+}
+.upload-file__label:hover path {
+	fill: yellow;
+}
+
+.upload-file__label:hover {
+	border-color: var(--ffont);
+}
+
+.upload-file__label.hover .upload-file__text {
+	color: var(--yellow);
+}
+.upload-file__label.hover path {
+	fill: var(--yellow);
+}
+.upload-file__label.hover {
+	border-color: var(--yellow);
+}
+
+/* drag and drop - ошибка */
+.upload-file__label.error .upload-file__text {
+	color: var(--pink);
+}
+.upload-file__label.error path {
+	fill: var(--pink);
+}
+.upload-file__label.error {
+	border-color: var(--pink);
+}
+
+.uploads_image{
+	position: absolute;
+	left: 30%;
+	width: 40%;
+	bottom: 20px;
+	height: 30px;
+}
+
+.uplo_image{
+	position: relative;
+	width: 126px;
+	height: 126px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: none;
+}
+
+#dimg1_btn{display: none;}
+#dimg2_btn{display: none;}
+#dimg3_btn{display: none;}
+#dimg4_btn{display: none;}
+#dimg5_btn{display: none;}
+#dimg6_btn{display: none;}
+
+#dimg11_btn{display: none;}
+#dimg12_btn{display: none;}
+#dimg13_btn{display: none;}
+#dimg14_btn{display: none;}
+#dimg15_btn{display: none;}
+#dimg16_btn{display: none;}
+
+.list2_img_blackout{
+	position: absolute;
+	top: 490px;
+	left: 35px;
+	width: 220px;
+	height: 220px;
+	z-index: 100;
+	background-color: var(--blackout);
+	opacity: 0;
+	
+}
+.list2_img_blackout:hover{
+	opacity: 1;
+}
+.list2_img_blackout_text{
+	width: 220px;
+	height: 65px;
+	margin-top: 80px;
+	font-size: 24px;
+	font-family: "Sochi";
+	color: var(--sfont);
+	text-align: center;
+	cursor: pointer;
+}
+.list2_img_blackout_text:hover{
+	color: var(--ffont);
+}
+
+.list2_panl_name{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	right: 35px;
+	height: 40px;
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.list2_panl_state{
+	position: absolute;
+	top: 100px;
+	left: 35px;
+	right: 35px;
+	height: 30px;
+	font-family: "Sochi";
+	font-size: 18px;
+	color: var(--ffont);
+	text-align: center;
+}
+
+.l2_btns{
+	position: absolute;
+	left: 35px;
+	width: 400px;
+	height: 50px;
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+	text-align: center;
+	border: none;
+}
+
+.l2_btns_pub{
+	background-color: var(--purple);
+	bottom: 205px;
+	display: none;
+}
+
+.l2_btns_pub:hover{
+	background-color: var(--active);
+}
+
+.l2_btns_pub:active{
+	background-color: var(--purple);
+}
+
+.l2_btns_save{
+	background-color: var(--blue);
+	bottom: 120px;
+}
+
+.l2_btns_save:hover{
+	background-color: var(--active);
+}
+
+.l2_btns_save:active{
+	background-color: var(--blue);
+}
+
+.l2_btns_del{
+	background-color: var(--pink);
+	bottom: 35px;
+}
+
+.l2_btns_del:hover{
+	background-color: var(--active);
+}
+
+.l2_btns_del:active{
+	background-color: var(--pink);
+}
+
+.upload-file__inputOne{
+	/*display: none;*/
+}
+
+.upload-file__inputOne {
+	height: 220px;
+	opacity: 0;
+	width: 220px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.list2_img_blackout{
+	position: absolute;
+	top: 490px;
+	left: 35px;
+	width: 220px;
+	height: 220px;
+	z-index: 100;
+	background-color: var(--blackout);
+	opacity: 0;
+}
+.list2_img_blackout:hover{
+	opacity: 1;
+}
+
+.list2_img_blackout_textOne{
+	position: absolute;
+	top: 0px;
+	width: 220px;
+	height: 65px;
+	margin-top: 80px;
+	font-size: 24px;
+	font-family: "Sochi";
+	color: var(--sfont);
+	text-align: center;
+	z-index: -100;
+}
+.list2_img_blackout_textOne:hover{
+	color: var(--ffont);
+}
+
+.imgForLogo{
+	position: relative;
+	width: 220px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: none;
+}
+
+.img-photo{
+	position: relative;
+	width: 126px;
+	height: 126px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.list3_img{
+	position: absolute;
+	top: 490px;
+	left: 35px;
+	width: 220px;
+	height: 220px;
+	background-color: var(--back);
+}
+
+.null-group{
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 34px;
+	font-family: "Sochi";
+	color: var(--ffont);
+	display: none;
+}

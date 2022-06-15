@@ -1,0 +1,25 @@
+#lb1{
+	background-color: var(--yellow);
+}
+
+#lb1:hover{
+	background-color: var(--active);
+}
+
+#lb2{
+	background-color: var(--green);
+}
+
+#lb2:hover{
+	background-color: var(--active);
+}
+
+#sli1{
+	background: url("../../img/headers_page/about1.png");
+	background-size: cover;
+}
+
+#sli2{
+	background: url("../../img/headers_page/about2.png");
+	background-size: cover;
+}

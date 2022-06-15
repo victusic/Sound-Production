@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5125e732df904cd18ee0fd92853d31b5" Name="Diagram1">
+        <EntityTypeShape EntityType="MusicalBaseModel.Advertisement" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.Area" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.AutorisationHistory" Width="1.5" PointX="5.25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.Genre" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.Group" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.Roll" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.TypeAdvertisement" Width="4.5" PointX="5.25" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.TypeDevice" Width="1.5" PointX="7.5" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.User" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MusicalBaseModel.Visit" Width="1.5" PointX="9.75" PointY="10.625" IsExpanded="true" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Advertisement_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Advertisement_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Advertisement_TypeAdvertisement" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Advertisement_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Visit_Advertisement" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Areas_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_AutorisationHistory_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Groups_Genre" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Groups_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Users_Rolls" ManuallyRouted="false" />
+        <AssociationConnector Association="MusicalBaseModel.FK_Visit_TypeDevice" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

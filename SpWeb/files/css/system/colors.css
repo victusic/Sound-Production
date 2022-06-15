@@ -1,0 +1,78 @@
+:root{
+	--outlaw: #292A2D; /*Цвет шапки*/
+	--back: #FFFFFF; /*основной фононовой цвет*/
+	--panl: #F7F6F3; /*Цвет панелей и навигационной панели*/
+	--ffont: #37352F; /*Цвет заголовочного текста*/
+	--sfont: #A1A09C; /*Цвет второстепенного текста*/
+	--active: #E8E7E4; /*Цвет панельной активности*/
+	--errorfont: red;
+	--warningfont: yellow;
+	--back_reverse: #2F3437; /*основной фононовой инверсированный цвет*/
+	--blackout: rgba(100, 100, 100, 0.85);
+
+	--yellow: #FBF3DB; /*для переключателя*/
+	--purple: #EAE4F2;
+	--pink: #F4DFEB;
+	--blue: #DDEBF1;
+	--green: #DDEDEA;
+
+	--password_visible: url("../../img/password/password_hide_light.png");
+	--password_hide: url("../../img/password/password_show_light.png");
+
+	--jobs_android: url("../../img/langp/light/android.png");
+	--jobs_ios: url("../../img/langp/light/apple.png");
+	--jobs_net: url("../../img/langp/light/net.png");
+	--jobs_front: url("../../img/langp/light/Cube.png");
+	--jobs_back: url("../../img/langp/light/Romb.png");
+	--jobs_qa: url("../../img/langp/light/Qa.png");
+	--jobs_uxui: url("../../img/langp/light/uxui.png");
+
+	--preview_statistic_count_plus: url("../../img/preview_statistic/light/count+.png");
+	--preview_statistic_count_minus: url("../../img/preview_statistic/light/count-.png");
+	--preview_statistic_count_equal: url("../../img/preview_statistic/light/count=.png");
+	--preview_statistic_count_0: url("../../img/preview_statistic/light/count0.png");
+
+	--preview_statistic_time_plus: url("../../img/preview_statistic/light/time+.png");
+	--preview_statistic_time_minus: url("../../img/preview_statistic/light/time-.png");
+	--preview_statistic_time_equal: url("../../img/preview_statistic/light/time=.png");
+	--preview_statistic_time_0: url("../../img/preview_statistic/light/time0.png");
+}
+:root[theme='dark']{
+	--outlaw: #292A2D; /*Цвет шапки*/
+	--back: #2F3437; /*основной фононовой цвет*/
+	--panl: #373C3F; /*Цвет панелей и навигационной панели*/
+	--ffont: #E9E9E9; /*Цвет заголовочного текста*/
+	--sfont: #95989C; /*Цвет второстепенного текста*/
+	--active: #474C50; /*Цвет панельной активности*/
+	--errorfont: red;
+	--warningfont: yellow;
+	--back_reverse: #FFFFFF; /*основной фононовой инверсированный цвет*/
+	--blackout: rgba(10, 10, 10, 0.85);
+
+	--yellow: #59563B;/*для переключателя*/
+	--purple: #443F57;
+	--pink: #533B4C;
+	--blue: #364954;
+	--green: #354C55;
+
+	--password_visible: url("../../img/password/password_hide_dark.png");
+	--password_hide: url("../../img/password/password_show_dark.png");
+
+	--jobs_android: url("../../img/langp/dark/android.png");
+	--jobs_ios: url("../../img/langp/dark/apple.png");
+	--jobs_net: url("../../img/langp/dark/net.png");
+	--jobs_front: url("../../img/langp/dark/Cube.png");
+	--jobs_back: url("../../img/langp/dark/Romb.png");
+	--jobs_qa: url("../../img/langp/dark/Qa.png");
+	--jobs_uxui: url("../../img/langp/dark/uxui.png");
+
+	--preview_statistic_count_plus: url("../../img/preview_statistic/dark/count+.png");
+	--preview_statistic_count_minus: url("../../img/preview_statistic/dark/count-.png");
+	--preview_statistic_count_equal: url("../../img/preview_statistic/dark/count=.png");
+	--preview_statistic_count_0: url("../../img/preview_statistic/dark/count0.png");
+
+	--preview_statistic_time_plus: url("../../img/preview_statistic/dark/time+.png");
+	--preview_statistic_time_minus: url("../../img/preview_statistic/dark/time-.png");
+	--preview_statistic_time_equal: url("../../img/preview_statistic/dark/time=.png");
+	--preview_statistic_time_0: url("../../img/preview_statistic/dark/time0.png");
+}

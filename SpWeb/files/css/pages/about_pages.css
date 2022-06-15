@@ -1,0 +1,173 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 2105px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 1695px;
+	background-color: var(--back);
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.listr{
+	position: relative;
+	width: 1500px;
+	margin-top: 35px;
+	height: 750px;
+}
+
+.imga{
+	position: absolute;
+	width: 590px;
+	height: 590px;
+	top: 80px;
+	background-color: red;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#img_collective{
+	background: url("../../img/about/collective.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_office{
+	background: url("../../img/about/office.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_platforms{
+	background: url("../../img/about/platforms.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_product{
+	background: url("../../img/about/product.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_students{
+	background: url("../../img/about/students.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_study{
+	background: url("../../img/about/study.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#img_study2{
+	background: url("../../img/about/study2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgb{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: 
+		linear-gradient(0deg, rgba(0,0,0,0) 75%, var(--panl) 100%),
+		linear-gradient(90deg, rgba(0,0,0,0) 75%, var(--panl) 100%),
+		linear-gradient(180deg, rgba(0,0,0,0) 75%, var(--panl) 100%),
+		linear-gradient(270deg, rgba(0,0,0,0) 75%, var(--panl) 100%);
+}
+
+.zg_text{
+	position: absolute;
+	height: 50px;
+	width: 750px;
+	top: 80px;
+	font-family: "Sochi";
+	font-size: 38px;
+	color: var(--sfont);
+}
+
+.Rstxt{
+	position: absolute;
+	height: 350px;
+	width: 450px;
+	top: 250px;
+	/*background: yellow;*/
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--ffont);
+	text-align: center;
+}
+
+.imga-static{
+	right: 80px;
+}
+
+.zg_text-static{
+	left: 80px;
+	background: linear-gradient(90deg, var(--purple) 75%, rgba(0,212,255,0) 100%);
+}
+
+.Rstxt-static{
+	left: 195px;
+}
+
+.imga-reverse{
+	left: 80px;
+}
+
+.zg_text-reverse{
+	right: 80px;
+	background: linear-gradient(90deg, rgba(0,212,255,0) 0%, var(--purple) 25%);
+	text-align: right;
+}
+
+.Rstxt-reverse{
+	right: 195px;
+}
+
+/*dost*/
+.base3{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 2820px;
+}
+
+.back3{
+	position: relative;
+	width: 100%;
+	height: 2410px;
+	background-color: var(--back);
+}
+
+/*ethics*/
+.base4{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 3600px;
+}
+
+.back4{
+	position: relative;
+	width: 100%;
+	height: 3190px;
+	background-color: var(--back);
+}
+
+

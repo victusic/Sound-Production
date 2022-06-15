@@ -1,0 +1,107 @@
+﻿<Page x:Class="SpDesktop.Pages.SystemsPages.LogIn"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SpDesktop.Pages.SystemsPages"
+      xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="LogIn">
+
+    <Grid Style="{DynamicResource GridBase}">
+
+        <Grid Name="Grid2" Style="{DynamicResource Grid2}"></Grid>
+
+        <Grid Name="Grid4" Style="{DynamicResource Grid4}"></Grid>
+        <Grid Name="Grid1" Style="{DynamicResource Grid1Hide}"></Grid>
+        <Grid Name="Grid3" Style="{DynamicResource Grid3}" ></Grid>
+        <Label Name="Sp" Content="SoundProduction" FontSize="64" Height="90" Width="600"  Style="{DynamicResource Ffont}"
+                   HorizontalAlignment="Left" VerticalAlignment="Bottom" RenderTransformOrigin="0.06,0.5" >
+            <Label.RenderTransform>
+                <RotateTransform Angle="-90"/>
+            </Label.RenderTransform>
+        </Label>
+
+
+        <Grid Name="Login" Width="700px" Height="500" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,70,0,0">
+            <TextBox Style="{DynamicResource Inputs}" Name="LoginBox" VerticalAlignment="Center" HorizontalAlignment="Center" Width="340"
+                     Height="35" GotFocus="LoginBoxRemoveText" LostFocus="LoginBoxAddText" Tag="Логин" Text="Логин" BorderThickness="0,0,0,1" 
+                     FontSize="26" Margin="0,0,0,80"/>
+            <PasswordBox Style="{DynamicResource Passwords}" Name="PasswordBox" VerticalAlignment="Center" HorizontalAlignment="Center" Width="340"
+                     Height="35" GotFocus="PasswordBoxRemoveText" Password="Пароль" BorderThickness="0,0,0,1" FontSize="26" Margin="0,130,0,0"
+                         Tag="Пароль"/>
+            <TextBox Style="{DynamicResource Inputs}" Name="PasswordBoxS" VerticalAlignment="Center" HorizontalAlignment="Center" Width="340"
+                     Height="35" BorderThickness="0,0,0,1" 
+                     FontSize="26" Margin="0,130,0,0"/>
+            <Button Style="{DynamicResource AuthButton}" Content="Войти" Width="340" Height="50"
+                Name="Log_BtnGo" FontSize="22" VerticalContentAlignment="Center" VerticalAlignment="Bottom"
+                    HorizontalAlignment="Center" Margin="0,0,0,30" Click="Log_BtnGo_Click"></Button>
+            <fa:IconImage Name="Eye" Icon="EyeSlash" MouseDown="Eye_MouseDown" MouseUp="Eye_MouseUp" Height="14"
+                VerticalAlignment="Center" HorizontalAlignment="Center" Style="{DynamicResource Eye}"
+                   Margin="290,130,0,0" ></fa:IconImage>
+        </Grid>
+
+        <Label Name="PreviewText" Width="800" Height="80" FontSize="54" Content="Авторизация" HorizontalContentAlignment="Right"
+               VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,55,40,0"  Style="{DynamicResource Ffont}"/>
+        <Grid Name="Loader" Width="260" Height="260">
+            <Grid Name="PR" Width="260" Height="260" RenderTransformOrigin="0.5,0.5" >
+                <Ellipse Width="260" Height="260" Style="{DynamicResource PurpleLine}"/>
+                <Ellipse Width="265" Height="265" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Width="265" Height="265" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+            <Grid Name="YR" Width="245" Height="245" RenderTransformOrigin="0.5,0.5" >
+                <Ellipse Width="245" Height="245" Style="{DynamicResource YellowLine}"/>
+                <Ellipse Width="250" Height="250" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Width="250" Height="250" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+            <Grid Name="PIR" Width="230" Height="230" RenderTransformOrigin="0.5,0.5" >
+                <Ellipse Width="230" Height="230" Style="{DynamicResource PinkLine}"/>
+                <Ellipse Width="240" Height="240" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,1">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <Ellipse Width="240" Height="240" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Ellipse.Fill>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="0,0">
+                            <GradientStop Color="{Binding Source={StaticResource RoundBack},Path=Color}" Offset="0.5" />
+                            <GradientStop Color="Transparent" Offset="0.5" />
+                        </LinearGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

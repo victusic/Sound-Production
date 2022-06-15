@@ -1,0 +1,1 @@
+$('#cookie_base').delay(3000).slideDown(475);

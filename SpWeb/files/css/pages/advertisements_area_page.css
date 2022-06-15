@@ -1,0 +1,1297 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 1470px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 1065px;
+	background-color: var(--back);
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.zg_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	top: 55px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: left;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 190px;
+	top: 130px;
+	bottom: 90px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.listr{
+	position: relative;
+	margin-top: 35px;
+	height: 980px;
+}
+
+.listb{
+	position: relative;
+	width: 982.5px;
+	margin-top: 35px;
+	height: 1530px;
+}
+
+.listn{
+	position: absolute;
+	width: 482.5px;
+	bottom: 0px;
+	top: 90px;
+	right: 0px;
+}
+
+#preloader_group{
+	position: absolute;
+	top: 225px;
+	left: 620px;
+	width: 260px;
+	height: 260px;
+}
+
+.null-group{
+	position: absolute;
+	top: 300px;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	font-size: 34px;
+	font-family: "Sochi";
+	color: var(--ffont);
+	display: none;
+}
+
+.listview_plate{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	top: 5px;
+	height: 0px;
+	/*background-color: red;*/
+	/*display: none;*/
+}
+
+.listview{
+	position: relative;
+	width: 100%;
+	height: 285px;
+	background-color: var(--back);
+	margin-top: 30px;
+	/*border-radius: 30px;*/
+}
+
+.listview:hover{
+	background-color: var(--active);
+}
+.listview:active{
+	background-color: var(--purple);
+}
+
+.lv_img{
+	position: absolute;
+	width: 190px;
+	height: 190px;
+	left: 20px;
+	top: 75px;
+	background-color: green;
+}
+
+.lv_name{
+	position: absolute;
+	height: 35px;
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 28px;
+	color: var(--sfont);
+}
+
+.lv_group{
+	position: absolute;
+	width: 525px;
+	height: 130px;
+	left: 230px;
+	top: 75px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 13.5px;
+	color: var(--ffont);
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
+
+.lv_area{
+	position: absolute;
+	width: 615px;
+	height: 80px;
+	right: 20px;
+	top: 75px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
+
+.lv_state{
+	position: absolute;
+	width: 615px;
+	height: 20px;
+	right: 20px;
+	bottom: 70px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	text-overflow: ellipsis;
+	/*white-space: nowrap;*/
+	overflow: hidden;
+}
+
+.lv_phone{
+	position: absolute;
+	width: 125px;
+	height: 20px;
+	left: 230px;
+	bottom: 20px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+}
+
+.lv_mail{
+	position: absolute;
+	width: 485px;
+	height: 20px;
+	left: 385px;
+	bottom: 20px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+}
+
+.lv_genre{
+	position: absolute;
+	width: 400px;
+	height: 20px;
+	right: 120px;
+	bottom: 20px;
+	background-color: var(--panl);
+	padding: 5px;
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+}
+
+.lv_time{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 20px;
+	bottom: 20px;
+	background-color: var(--panl);
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.lv_visible{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	right: 70px;
+	bottom: 20px;
+	background-color: var(--panl);
+	font-family: "Sochi";
+	font-size: 15px;
+	color: var(--ffont);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.logo_img{
+	position: relative;
+	width: 190px;
+	height: 190px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.preview_statistic{
+	margin: 2px;
+	width: 26px;
+	height: 26px;
+	/*background-color: red;*/
+}
+
+.preview_statistic_count_plus{
+	background-image: var(--preview_statistic_count_plus);
+	background-size: cover;
+}
+
+.preview_statistic_count_minus{
+	background-image: var(--preview_statistic_count_minus);
+	background-size: cover;
+}
+
+.preview_statistic_count_equal{
+	background-image: var(--preview_statistic_count_equal);
+	background-size: cover;
+}
+
+.preview_statistic_count_0{
+	background-image: var(--preview_statistic_count_0);
+	background-size: cover;
+}
+
+.preview_statistic_time_plus{
+	background-image: var(--preview_statistic_time_plus);
+	background-size: cover;
+}
+
+.preview_statistic_time_minus{
+	background-image: var(--preview_statistic_time_minus);
+	background-size: cover;
+}
+
+.preview_statistic_time_equal{
+	background-image: var(--preview_statistic_time_equal);
+	background-size: cover;
+}
+
+.preview_statistic_time_0{
+	background-image: var(--preview_statistic_time_0);
+	background-size: cover;
+}
+
+.avatar-none{
+	position: relative;
+	width: 190px;
+	height: 190px;
+	background: url("../../img/avatar/area.png");
+	background-size: cover;
+}
+
+#list2{
+	display: none;
+}
+
+#list3{
+	display: none;
+}
+
+.list2_panl_name{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	right: 35px;
+	height: 40px;
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+#chart_round{
+	position: relative;
+	background-color: var(--panl);
+	margin-top: 130px;
+}
+
+#chart_column{
+	position: relative;
+	background-color: var(--panl);
+	margin-top: 55px;
+}
+
+#chart_line{
+	position: relative;
+	background-color: var(--panl);
+	margin-top: 55px;
+}
+
+.font_z{
+	position: absolute;
+	height: 26px;
+	left: 35px;
+	right: 35px;
+	font-family: "Sochi";
+	font-size: 22px;
+	color: var(--ffont);
+	text-align: center;
+}
+
+#fnt1{
+	top: 95px;
+}
+
+#fnt2{
+	top: 350px;
+}
+
+#fnt3{
+	top: 605px;
+}
+
+.list2_name{
+	position: absolute;
+	top: 35px;
+	left: 110px;
+	right: 185px;
+	height: 40px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+}
+
+.list2_end{
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	width: 40px;
+	height: 40px;
+	background-color: var(--blue);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	cursor: pointer;
+	text-align: center;
+}
+
+.list2_end:hover{
+	color: var(--ffont);
+}
+
+.list2_print{
+	position: absolute;
+	top: 35px;
+	right: 110px;
+	width: 40px;
+	height: 40px;
+	background-color: var(--green);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	cursor: pointer;
+	text-align: center;
+}
+
+.list2_print:hover{
+	color: var(--ffont);
+}
+
+.list2_show{
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	width: 40px;
+	height: 40px;
+	background-color: var(--green);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	cursor: pointer;
+	text-align: center;
+}
+
+.list2_show:hover{
+	color: var(--ffont);
+}
+
+.list2_genre{
+	position: absolute;
+	top: 385px;
+	left: 35px;
+	width: 220px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_group{
+	position: absolute;
+	top: 120px;
+	right: 35px;
+	width: 652.5px;
+	height: 285px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_about_area{
+	position: absolute;
+	top: 445px;
+	right: 35px;
+	width: 912.5px;
+	height: 150px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_img{
+	position: absolute;
+	top: 120px;
+	left: 35px;
+	width: 220px;
+	height: 220px;
+	background-color: var(--back);
+}
+
+.list2_phone{
+	position: absolute;
+	top: 640px;
+	right: 35px;
+	width: 220px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_mail{
+	position: absolute;
+	top: 640px;
+	left: 35px;
+	width: 648px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	border: none;
+}
+
+.list2_spotify{
+	position: absolute;
+	top: 705px;
+	left: 35px;
+	width: 908px;
+	height: 90px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+}
+
+.list2_location{
+	position: absolute;
+	top: 835px;
+	left: 35px;
+	width: 908px;
+	height: 20px;
+	background-color: var(--back);
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+}
+
+.list2_dimg{
+	position: absolute;
+	top: 895px;
+	left: 35px;
+	width: 908px;
+	height: 600px;
+	background-color: var(--back);
+}
+
+
+.list2_txt{
+	position: absolute;
+	width: 220px;
+	height: 18px;
+	font-family: "Sochi";
+	font-size: 14px;
+	color: var(--sfont);
+}
+
+.avatar-none-big{
+	position: relative;
+	width: 220px;
+	height: 220px;
+	background: url("../../img/avatar/area.png");
+	background-size: cover;
+}
+
+.avatar-none-big2{
+	position: relative;
+	width: 190px;
+	height: 190px;
+	background: url("../../img/avatar/area.png");
+	background-size: cover;
+}
+
+/*42*/
+#l2_genre{left: 35px; top: 365px;}
+#l2_group{left: 294px; top: 100px;}
+#l2_img{left: 35px; top: 100px;}
+#l2_aarea{left: 35px; top: 425px;}
+#l2_mail{left: 35px; top: 620px;}
+#l2_phone{right: 38px; top: 620px;}
+#l2_spotify{left: 35px; top: 685px;}
+#l2_location{left: 35px; top:815px;}
+#l2_dimg{left: 35px; top: 875px;}
+
+.logo_img_list{
+	position: relative;
+	width: 220px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.img_null{
+	margin-top: 290px;
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--sfont);
+	width: 908px;
+	height: 20px;
+	text-align: center;
+}
+
+.img_1{
+	margin-top: 50px;
+	margin-left: 204px;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+
+.img_2{
+	position: absolute;
+	top: 125px;
+	width: 350px;
+	height: 350px;
+	background-color: red;
+}
+
+#img21{
+	left: 65px;
+}
+#img22{
+	right: 65px;
+}
+
+.img_31{
+	left: 115px;
+	position: absolute;
+	top: 85px;
+	width: 425px;
+	height: 425px;
+	background-color: red;
+}
+
+.img_32{
+	position: absolute;
+	right: 115px;
+	width: 190px;
+	height: 190px;
+	background-color: red;
+}
+
+#img32{
+	top: 85px;
+}
+#img33{
+	bottom: 90px;
+}
+
+.img_4{
+	position: absolute;
+	width: 225px;
+	height: 225px;
+	background-color: red;
+}
+
+#img41{
+	top: 50px;
+	left: 200px;
+}
+#img42{
+	bottom: 50px;
+	left: 200px;
+}
+#img43{
+	top: 50px;
+	right: 200px;
+}
+#img44{
+	bottom: 50px;
+	right: 200px;
+}
+
+.img_51{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+#img51{
+	top: 50px;
+	left: 125px;
+}
+#img52{
+	top: 50px;
+	left: 355px;
+}
+
+#img53{
+	top: 50px;
+	right: 125px;
+}
+
+.img_52{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background-color: red;
+}
+
+#img54{
+	bottom: 50px;
+	left: 125px;
+}
+#img55{
+	bottom: 50px;
+	right: 125px;
+}
+
+.img_61{
+	position: absolute;
+	width: 325px;
+	height: 325px;
+	background-color: red;
+}
+
+#img61{
+	top: 50px;
+	left: 175px;
+}
+
+.img_62{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+
+#img62{
+	bottom: 50px;
+	left: 175px;
+}
+
+#img63{
+	bottom: 50px;
+	left: 350px;
+}
+
+#img64{
+	top: 50px;
+	right: 232px;
+}
+
+#img65{
+	top: 225px;
+	right: 232px;
+}
+
+#img66{
+	bottom: 50px;
+	right: 232px;
+}
+
+.link2base{
+	position: relative;
+	width: 300px;
+	height: 60px;
+}
+.link2plate{
+	position: absolute;
+	width: 280px;
+	height: 50px;
+	left: 10px;
+	top: 10px;
+	background-color: var(--panl);
+	text-decoration: none;
+}
+.link2plate:hover{
+	background-color: var(--active);
+}
+.link2plate:active{
+	background-color: var(--purple);
+}
+.link2S{
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 30px;
+	height: 30px;
+}
+.link2Text{
+	margin-top: -25px;
+	width: 290px;
+	height: 20px;
+	font-family: "Sochi";
+	font-size: 16px;
+	color: var(--ffont);
+	text-align: center;
+	
+}
+
+.a4{
+	position: absolute;
+	width: 4960px;
+	height: 7016px;
+	background: white;
+	z-index: -50;
+}
+
+.a4_name{
+	position: absolute;
+	left: 10%;
+	width: 90%;
+	height: 240px;
+	top: 480px;
+	background: #443F57;
+	font-size: 184px;
+	color: white;
+	font-family: "Sochi";
+}
+.a4_img{
+	position: absolute;
+	left: 10%;
+	width: 1400px;
+	height: 1400px;
+	top: 960px;
+}
+.a4_img_none{
+	position: absolute;
+	left: 10%;
+	width: 1400px;
+	height: 1400px;
+	top: 960px;
+	background: url("../../img/avatar/area.png");
+	background-size: cover;
+}
+.a4_genre{
+	position: absolute;
+	left: 10%;
+	width: 1400px;
+	height: 160px;
+	top: 2520px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+.a4_descriptionD{
+	position: absolute;
+	left: 42%;
+	width: 48%;
+	height: 1720px;
+	top: 960px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+.a4_mail{
+	position: absolute;
+	left: 10%;
+	width: 2400px;
+	height: 160px;
+	top: 2840px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+.a4_phone{
+	position: absolute;
+	right: 10%;
+	width: 1400px;
+	height: 160px;
+	top: 2840px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+.a4_descriptionB{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	height: 1720px;
+	top: 3160px;
+	font-family: "Sochi";
+	background: #FaFaFa;
+	font-size: 104px;
+}
+.a4_outro{
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	bottom: 320px;
+	text-align: center;
+	font-size: 96px;
+	font-family: "Sochi";
+}
+
+.a4_equipment{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	height: 870px;
+	top: 5040px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+
+.a4_location{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	height: 160px;
+	top: 6140px;
+	background: #FaFaFa;
+	font-size: 104px;
+	font-family: "Sochi";
+}
+
+.pr_base{
+	position: absolute;
+	width: 1950px;
+	height: 100%;
+	background-color: black;
+	display: none;
+}
+
+.slide1{
+	width: 1950px;
+	height: 50%;
+	background-color: black;
+}
+
+.slide3{
+	position: relative;
+	width: 1950px;
+	height: 50%;
+	background-color: black;
+	margin-left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pr_name{
+	position: absolute;
+	top: 340px;
+	width: 100%;
+	height: 80px;
+	font-family: "Sochi";
+	font-size: 128px;
+	color: white;
+	text-align: center;
+	opacity: 0;
+	z-index: 100;
+}
+
+.pr_img{
+	position: absolute;
+	top: 370px;
+	width: 350px;
+	height: 350px;
+	left: -500px;
+}
+
+.rotate360 {
+    transition: transform 0.4s;
+	transform: rotate(360deg);
+}
+.rotate12{
+	transform: rotate(-12deg);
+}
+.rotate90{
+	transform: rotate(90deg);
+}
+
+.pr_genre{
+	position: absolute;
+	top: 490px;
+	width: 400px;
+	height: 80px;
+	right: -500px;
+	font-family: "Sochi";
+	font-size: 64px;
+	color: gainsboro;
+	text-align: center;
+}
+
+.animate-block-exit{
+	position: fixed;
+	top: 5px;
+	right: 15px;
+	width: 32px;
+	height: 32px;
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	font-size: 32px;
+	opacity: 0;
+	z-index: 150;
+}
+
+.animate-block-exit:hover{
+	opacity: 1;
+}
+.animate-block-exit:active{
+	color: #70008f;
+}
+
+.pr_ad{
+	position: absolute;
+	top: 885px;
+	width: 100%;
+	height: 26px;
+	font-family: "Sochi";
+	font-size: 16px;
+	color: #70008f;
+	text-align: center;
+	opacity: 0;
+}
+
+.pr_desc_areas{
+	position: absolute;
+	top: 360px;
+	width: 450px;
+	height: 300px;
+	right: -500px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: white;
+}
+
+.pr_desc{
+	position: absolute;
+	top: 360px;
+	width: 550px;
+	height: 300px;
+	right: -550px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: white;
+}
+
+.listSpotify{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background: url("../../img/animate_back/spotify.png");
+	background-size: cover;
+}
+
+
+.listApple{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background: url("../../img/animate_back/apple.png");
+	background-size: cover;
+}
+
+.listYandex{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background-color: white;
+}
+
+.listDeezer{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background: url("../../img/animate_back/deezer.jpg");
+}
+
+.listYouTube{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background: url("../../img/animate_back/youtube.png");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.listYouTubeMusic{
+	position: relative;
+	width: 1950px;
+	height: 100%;
+	background-color: black;
+}
+
+.link_sp_img{
+	position: absolute;
+	top: 365px;
+	width: 300px;
+	height: 300px;
+	left: 290px;
+}
+
+.link_sp_logo{
+	position: absolute;
+	top: 425px;
+	width: 600px;
+	height: 180px;
+	left: 650px;
+	background: url("../../img/bages/spotifyL.png");
+	background-size: cover;
+}
+
+
+.link_sp_bage{
+	position: absolute;
+	top: 595px;
+	width: 244px;
+	height: 90px;
+	left: 1280px;
+	background: url("../../img/bages/spotify.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.link_ap_img{
+	position: absolute;
+	top: 400px;
+	width: 300px;
+	height: 300px;
+	left: 600px;
+	border-radius: 60px;
+}
+
+.link_ap_bage{
+	position: absolute;
+	top: 625px;
+	width: 250px;
+	height: 71px;
+	left: 1035px;
+	background: url("../../img/bages/apple.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.link_ap_logo{
+	position: absolute;
+	top: 500px;
+	width: 240px;
+	height: 60px;
+	left: 1035px;
+	background: url("../../img/bages/applemusic.png");
+	background-size: cover;
+}
+
+.link_ap_name{
+	position: absolute;
+	top: 400px;
+	width: 400px;
+	height: 60px;
+	left: 970px;
+	font-family: "Sochi";
+	font-size: 48px;
+	text-align: center;
+}
+
+.link_yap_img{
+	position: absolute;
+	top: 340px;
+	width: 300px;
+	height: 300px;
+	left: 450px;
+}
+
+.link_yap_bage{
+	position: absolute;
+	top: 725px;
+	width: 229px;
+	height: 71px;
+	left: 860px;
+	background: url("../../img/bages/yandex.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.link_yap_logo{
+	position: absolute;
+	top: 340px;
+	width: 300px;
+	height: 300px;
+	right: 500px;
+	background: url("../../img/animate_back/yandex.png");
+	background-size: cover;
+}
+
+.link_yap_name{
+	position: absolute;
+	top: 120px;
+	width: 100%;
+	height: 82px;
+	font-family: "Sochi";
+	font-size: 64px;
+	text-align: center;
+}
+
+.link_dp_bage{
+	position: absolute;
+	top: 800px;
+	width: 244px;
+	height: 71px;
+	left: 900px;
+	background: url("../../img/bages/deezer.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.link_ytb_img{
+	position: absolute;
+	top: 365px;
+	width: 300px;
+	height: 300px;
+	left: 550px;
+	background: url("../../img/animate_back/youtybe_music.jpg");
+	background-size: cover;
+}
+
+.link_ytb_bage{
+	position: absolute;
+	top: 595px;
+	width: 244px;
+	height: 71px;
+	right: 550px;
+	background: url("../../img/bages/youtumemusic.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.link_ytb_name{
+	position: absolute;
+	top: 350px;
+	width: 600px;
+	height: 71px;
+	right: 550px;
+	font-family: "Sochi";
+	font-size: 64px;
+	text-align: right;
+	color: white;
+}
+
+.link_playa_y{
+	width: 400px;
+	height: 550px;
+	background-color: white;
+	border-radius: 60px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.link_y_img{
+	width: 325px;
+	height: 325px;
+	margin-top: 37px;
+	border-radius: 60px;
+	background-size: cover;
+}
+
+.link_y_bage{
+	margin-top: 30px;
+	width: 260px;
+	height: 108px;
+	background: url("../../img/bages/youtube.png");
+	background-size: cover;
+	cursor: pointer;
+}
+
+.slide3base{
+	position: relative;
+	margin-top: 150px;
+	width: 908px;
+	height: 600px;
+}
+
+.scaleSl3 {
+    transition: transform 1.5s;
+	transform: scale(1.4);
+}
+
+.pr_ad2{
+	position: absolute;
+	top: 920px;
+	width: 95%;
+	height: 26px;
+	font-family: "Sochi";
+	font-size: 16px;
+	color: #70008f;
+	text-align: right;
+	opacity: 0;
+}

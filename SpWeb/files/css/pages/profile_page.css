@@ -1,0 +1,314 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 1400px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 990px;
+	background-color: var(--back);
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 40px;
+	top: 40px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.listimg{
+	position: absolute;
+	width: 260px;
+	top: 90px;
+	height: 260px;
+}
+
+.logo_profile_base{
+	width: 170px;
+	height: 170px;
+	background-color: var(--back);
+	margin-top: 35px;
+	margin-left: 35px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: var(--blue);
+}
+
+.logo_load{
+	position: absolute;
+	width: 65%;
+	top: 42%;
+	height: 16%;
+	font-family: "Sochi";
+	font-size: 32px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.listimmutable{
+	position: absolute;
+	width: 1200px;
+	top: 90px;
+	height: 260px;
+	right: 0px;
+}
+
+.zg_text{
+	position: absolute;
+	height: 50px;
+	left: 35px;
+	right: 35px;
+	top: 35px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 38px;
+	color: var(--sfont);
+	text-align: left;
+}
+
+.text_text{
+	position: absolute;
+	width: 256.25px;
+	top: 120px;
+	bottom: 35px;
+	background-color: var(--yellow);
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--ffont);
+	text-align: center;
+}
+
+.banck{
+	margin-top: 6.5%;
+	width: 100%;
+	height: 70%;
+}
+
+.roll_text{left: 35px;}
+.status_text{left: 326.25px;}
+.count_text{right: 326.25px;}
+.reg_text{right: 35px;}
+
+.listchangeable{
+	position: absolute;
+	width: 1500px;
+	top: 390px;
+	height: 600px;
+}
+
+.text_text2{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	height: 85px;
+	background-color: var(--panl);
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--ffont);
+	text-align: left;
+	border-width: 4px;
+	border-style: solid;
+	border-color: var(--green);
+}
+
+.banck2{
+	position: relative;
+	top: 30%;
+	height: 40%;
+}
+
+.banck21{
+	position: absolute;
+	top: 32%;
+	height: 40%;
+}
+
+#b2_login{width: 6%;}
+#b2_mail{width: 6%;}
+#b2_phone{width: 14%;}
+#b2_pass{width: 7%;}
+#b21_login{width: 34%; left: 6%;}
+#b21_mail{width: 34%; left: 6%;}
+#b21_phone{width: 26%; left: 14%;}
+#b21_pass{width: 33%; left: 7%;}
+
+.banck3{
+	position: relative;
+	left: 40%;
+	top: -10%;
+	width: 8%;
+	height: 40%;
+	color: var(--sfont);
+}
+
+.banck4{
+	position: absolute;
+	left: 49%;
+	top: 30%;
+	width: 49%;
+	height: 40%;
+}
+
+.profile_input{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 1px solid var(--purple);
+	background-color: var(--back);
+	width: 100%;
+	height: 100%;
+	font-family: "Sochi";
+	font-size: 26px;
+	color: var(--sfont);
+}
+
+.login_text{top: 35px;}
+.mail_text{top: 155px;}
+.phone_text{top: 275px;}
+.password_text{top: 395px;}
+
+.save_btn{
+	position: absolute;
+	width: 30%;
+	height: 40px;
+	top: 525px;
+	left: 35%;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: center;
+	cursor: pointer;
+}
+
+.save_btn:hover{background-color: var(--active);}
+.save_btn:active{background-color: var(--pink);}
+
+@keyframes loading {
+	from {
+		opacity: 1;
+	}
+	50%{
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.load{
+	animation-name: loading;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+.list-fog{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-size: 0px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.list-fog:hover{
+	z-index: 2000;
+	background-color: var(--blackout);
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--ffont);
+	text-align: center;
+}
+
+.cen{
+	margin-top: 17%;
+}
+
+.avatar-none{
+	position: relative;
+	width: 170px;
+	height: 170px;
+	background: url("../../img/avatar/avatar.png");
+	background-size: cover;
+}
+
+.upload-file__inputOne {
+	height: 220px;
+	opacity: 0;
+	width: 220px;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+.list2_img_blackout{
+	position: absolute;
+	top: 45px;
+	left: 45px;
+	width: 170px;
+	height: 170px;
+	z-index: 100;
+	background-color: var(--blackout);
+	opacity: 0;
+	
+}
+.list2_img_blackout:hover{
+	opacity: 1;
+}
+.list2_img_blackout_textOne{
+	width: 220px;
+	height: 65px;
+	margin-top: -170px;
+	margin-left: -25px;
+	font-size: 24px;
+	font-family: "Sochi";
+	color: var(--sfont);
+	text-align: center;
+	cursor: pointer;
+}
+.list2_img_blackout_textOne:hover{
+	color: var(--ffont);
+}
+
+.imgForLogo{
+	position: relative;
+	width: 170px;
+	height: 170px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border: none;
+}
+
+.img-photo{
+	position: relative;
+	width: 126px;
+	height: 126px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

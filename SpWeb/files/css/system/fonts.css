@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Nano';
+	src: url('Nano.eot');
+	src: local('Nano Regular'), local('Nano'),
+		url('../../fonts/Nano/Nano.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Nano/Nano.woff2') format('woff2'),
+		url('../../fonts/Nano/Nano.woff') format('woff'),
+		url('../../fonts/Nano/Nano.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Ante";
+	src: url('Ante-Regular.eot');
+	src: local('Ante Regular'), local('Ante-Regular'),
+		url('../../fonts/Ante/Ante-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/Ante/Ante-Regular.woff2') format('woff2'),
+		url('../../fonts/Ante/Ante-Regular.woff') format('woff'),
+		url('../../fonts/Ante/Ante-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Sochi";
+	src: local("Sochi"),
+		url('../../fonts/Sochi/Sochi.ttf');
+}

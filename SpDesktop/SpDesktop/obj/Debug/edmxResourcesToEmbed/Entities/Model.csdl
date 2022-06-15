@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MusicalBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Advertisement">
+    <Key>
+      <PropertyRef Name="AdvertisementId" />
+    </Key>
+    <Property Name="AdvertisementId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeAdvertisement" Type="Int32" Nullable="false" />
+    <Property Name="Representative" Type="Int32" Nullable="false" />
+    <Property Name="Area" Type="Int32" />
+    <Property Name="Group" Type="Int32" />
+    <Property Name="Moderation" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Area1" Relationship="Self.FK_Advertisement_Areas" FromRole="Advertisement" ToRole="Areas" />
+    <NavigationProperty Name="Group1" Relationship="Self.FK_Advertisement_Groups" FromRole="Advertisement" ToRole="Groups" />
+    <NavigationProperty Name="TypeAdvertisement1" Relationship="Self.FK_Advertisement_TypeAdvertisement" FromRole="Advertisement" ToRole="TypeAdvertisement" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Advertisement_Users" FromRole="Advertisement" ToRole="Users" />
+    <NavigationProperty Name="Visits" Relationship="Self.FK_Visit_Advertisement" FromRole="Advertisement" ToRole="Visit" />
+  </EntityType>
+  <EntityType Name="Area">
+    <Key>
+      <PropertyRef Name="AreaId" />
+    </Key>
+    <Property Name="AreaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Representative" Type="Int32" Nullable="false" />
+    <Property Name="Location" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DescriptionGroups" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhotoLogo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo3" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo4" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo5" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo6" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <Property Name="Equipment" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Advertisements" Relationship="Self.FK_Advertisement_Areas" FromRole="Areas" ToRole="Advertisement" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Areas_Users" FromRole="Areas" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="AutorisationHistory">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="State" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_AutorisationHistory_Users" FromRole="AutorisationHistory" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Genre1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Groups_Genre" FromRole="Genre" ToRole="Groups" />
+  </EntityType>
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="BandId" />
+    </Key>
+    <Property Name="BandId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Producer" Type="Int32" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DescriptionAreas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PhotoLogo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo1" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo2" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo3" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo4" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo5" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Photo6" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="SpotifyLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="AppleMusicLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DeezerLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YandexMusicLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YouTubeMusicLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YouTubeLink" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Genre" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Advertisements" Relationship="Self.FK_Advertisement_Groups" FromRole="Groups" ToRole="Advertisement" />
+    <NavigationProperty Name="Genre1" Relationship="Self.FK_Groups_Genre" FromRole="Groups" ToRole="Genre" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Groups_Users" FromRole="Groups" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Roll">
+    <Key>
+      <PropertyRef Name="RollId" />
+    </Key>
+    <Property Name="RollId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Roll1" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Rolls" FromRole="Rolls" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TypeAdvertisement">
+    <Key>
+      <PropertyRef Name="AdvertisementId" />
+    </Key>
+    <Property Name="AdvertisementId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Advertisement" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Advertisements" Relationship="Self.FK_Advertisement_TypeAdvertisement" FromRole="TypeAdvertisement" ToRole="Advertisement" />
+  </EntityType>
+  <EntityType Name="TypeDevice">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Visits" Relationship="Self.FK_Visit_TypeDevice" FromRole="TypeDevice" ToRole="Visit" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Roll" Type="Int32" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Mail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="IsActivity" Type="Int32" Nullable="false" />
+    <Property Name="CountAdvertisement" Type="Int32" Nullable="false" />
+    <Property Name="RegistrationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Advertisements" Relationship="Self.FK_Advertisement_Users" FromRole="Users" ToRole="Advertisement" />
+    <NavigationProperty Name="Areas" Relationship="Self.FK_Areas_Users" FromRole="Users" ToRole="Areas" />
+    <NavigationProperty Name="AutorisationHistories" Relationship="Self.FK_AutorisationHistory_Users" FromRole="Users" ToRole="AutorisationHistory" />
+    <NavigationProperty Name="Groups" Relationship="Self.FK_Groups_Users" FromRole="Users" ToRole="Groups" />
+    <NavigationProperty Name="Roll1" Relationship="Self.FK_Users_Rolls" FromRole="Users" ToRole="Rolls" />
+  </EntityType>
+  <EntityType Name="Visit">
+    <Key>
+      <PropertyRef Name="VisitId" />
+    </Key>
+    <Property Name="VisitId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+    <Property Name="Device" Type="Int32" Nullable="false" />
+    <Property Name="Advertisiment" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Advertisement" Relationship="Self.FK_Visit_Advertisement" FromRole="Visit" ToRole="Advertisement" />
+    <NavigationProperty Name="TypeDevice" Relationship="Self.FK_Visit_TypeDevice" FromRole="Visit" ToRole="TypeDevice" />
+  </EntityType>
+  <Association Name="FK_Advertisement_Areas">
+    <End Role="Areas" Type="Self.Area" Multiplicity="0..1" />
+    <End Role="Advertisement" Type="Self.Advertisement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Areas">
+        <PropertyRef Name="AreaId" />
+      </Principal>
+      <Dependent Role="Advertisement">
+        <PropertyRef Name="Area" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Advertisement_Groups">
+    <End Role="Groups" Type="Self.Group" Multiplicity="0..1" />
+    <End Role="Advertisement" Type="Self.Advertisement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="BandId" />
+      </Principal>
+      <Dependent Role="Advertisement">
+        <PropertyRef Name="Group" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Advertisement_TypeAdvertisement">
+    <End Role="TypeAdvertisement" Type="Self.TypeAdvertisement" Multiplicity="1" />
+    <End Role="Advertisement" Type="Self.Advertisement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeAdvertisement">
+        <PropertyRef Name="AdvertisementId" />
+      </Principal>
+      <Dependent Role="Advertisement">
+        <PropertyRef Name="TypeAdvertisement" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Advertisement_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Advertisement" Type="Self.Advertisement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Advertisement">
+        <PropertyRef Name="Representative" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Visit_Advertisement">
+    <End Role="Advertisement" Type="Self.Advertisement" Multiplicity="1" />
+    <End Role="Visit" Type="Self.Visit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Advertisement">
+        <PropertyRef Name="AdvertisementId" />
+      </Principal>
+      <Dependent Role="Visit">
+        <PropertyRef Name="Advertisiment" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Areas_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Areas" Type="Self.Area" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Areas">
+        <PropertyRef Name="Representative" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AutorisationHistory_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="AutorisationHistory" Type="Self.AutorisationHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="AutorisationHistory">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Genre">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="1" />
+    <End Role="Groups" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="Genre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Groups_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Groups" Type="Self.Group" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Groups">
+        <PropertyRef Name="Producer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Rolls">
+    <End Role="Rolls" Type="Self.Roll" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rolls">
+        <PropertyRef Name="RollId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Roll" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Visit_TypeDevice">
+    <End Role="TypeDevice" Type="Self.TypeDevice" Multiplicity="1" />
+    <End Role="Visit" Type="Self.Visit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeDevice">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Visit">
+        <PropertyRef Name="Device" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MusicalBaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Advertisements" EntityType="Self.Advertisement" />
+    <EntitySet Name="Areas" EntityType="Self.Area" />
+    <EntitySet Name="AutorisationHistories" EntityType="Self.AutorisationHistory" />
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="Rolls" EntityType="Self.Roll" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="TypeAdvertisements" EntityType="Self.TypeAdvertisement" />
+    <EntitySet Name="TypeDevices" EntityType="Self.TypeDevice" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="Visits" EntityType="Self.Visit" />
+    <AssociationSet Name="FK_Advertisement_Areas" Association="Self.FK_Advertisement_Areas">
+      <End Role="Areas" EntitySet="Areas" />
+      <End Role="Advertisement" EntitySet="Advertisements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Advertisement_Groups" Association="Self.FK_Advertisement_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Advertisement" EntitySet="Advertisements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Advertisement_TypeAdvertisement" Association="Self.FK_Advertisement_TypeAdvertisement">
+      <End Role="TypeAdvertisement" EntitySet="TypeAdvertisements" />
+      <End Role="Advertisement" EntitySet="Advertisements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Advertisement_Users" Association="Self.FK_Advertisement_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Advertisement" EntitySet="Advertisements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Visit_Advertisement" Association="Self.FK_Visit_Advertisement">
+      <End Role="Advertisement" EntitySet="Advertisements" />
+      <End Role="Visit" EntitySet="Visits" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Areas_Users" Association="Self.FK_Areas_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Areas" EntitySet="Areas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AutorisationHistory_Users" Association="Self.FK_AutorisationHistory_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="AutorisationHistory" EntitySet="AutorisationHistories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Genre" Association="Self.FK_Groups_Genre">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Groups_Users" Association="Self.FK_Groups_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Groups" EntitySet="Groups" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Rolls" Association="Self.FK_Users_Rolls">
+      <End Role="Rolls" EntitySet="Rolls" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Visit_TypeDevice" Association="Self.FK_Visit_TypeDevice">
+      <End Role="TypeDevice" EntitySet="TypeDevices" />
+      <End Role="Visit" EntitySet="Visits" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(MusicalBaseModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(MusicalBaseModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,287 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 6205px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 5795px;
+	background-color: var(--back);
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.zg_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	top: 55px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: left;
+}
+
+.cl_text{
+	position: absolute;
+	left: 40px;
+	right: 190px;
+	top: 130px;
+	bottom: 90px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+.dt_text{
+	position: absolute;
+	right: 35px;
+	width: 100px;
+	height: 20px;
+	top: 35px;
+	font-family: "Sochi";
+	font-size: 14px;
+	color: var(--ffont);
+	text-align: right;
+	/*background-color: yellow;*/
+}
+
+.img_yap{
+	position: absolute;
+	right: 35px;
+	top: 130px;
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+}
+
+#img_sibir{background-image: url("../../img/industry_news/sibir.png");}
+#img_got{background-image: url("../../img/industry_news/got.png");}
+#img_splean{background-image: url("../../img/industry_news/splean.png");}
+#img_zemfira{background-image: url("../../img/industry_news/zemfira.png");}
+#img_tsoi{background-image: url("../../img/industry_news/tsoi.png");}
+#img_kiss{background-image: url("../../img/industry_news/kiss.png");}
+#img_emirov{background-image: url("../../img/industry_news/emirov.png");}
+#img_elton{background-image: url("../../img/industry_news/elton.png");}
+#img_gradskie{background-image: url("../../img/industry_news/gradskie.png");}
+#img_adele{background-image: url("../../img/industry_news/adele.png");}
+#img_beatles{background-image: url("../../img/industry_news/beatles.png");}
+#img_abba{background-image: url("../../img/industry_news/abba.png");}
+#img_limp_bizkit{background-image: url("../../img/industry_news/limp_bizkit.png");}
+#img_sheeran{background-image: url("../../img/industry_news/sheeran.png");}
+
+.dbl_text{
+	position: absolute;
+	height: 30px;
+	left: 40px;
+	right: 385px;
+	bottom: 35px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--sfont);
+	text-align: left;
+	cursor: pointer;
+	/*background-color: blue;*/
+}
+
+.dbl_text:hover{
+	color: var(--ffont);
+}
+
+.list0{
+	position: relative;
+	width: 1500px;
+	height: 55px;
+	margin-top: 35px;
+}
+
+.listn{
+	position: relative;
+	width: 982.5px;
+	margin-top: 35px;
+	height: 375px;
+}
+
+.listr{
+	position: absolute;
+	width: 482.5px;
+	bottom: 0px;
+	top: 90px;
+	right: 0px;
+}
+
+.zga_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+#zga1{
+	top: 35px;
+}
+#zga2{
+	top: 785px;
+}
+
+.flt_text{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	top: 110px;
+	height: 630px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+}
+
+.tags_text{
+	height: 25px;
+	margin-right: 8px;
+	margin-top: -2px;
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--sfont);
+	text-align: left;
+	cursor: pointer;
+}
+
+.flex_tags_base{
+	position: absolute;
+	/*background-color: white;*/
+	left: 35px;
+	right: 35px;
+	top: 505px;
+	height: 81px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.flex_tags_base_cards{
+	position: absolute;
+	/*width: 310px;*/
+	right: 35px;
+	top: 311px;
+	height: 25px;
+	display: flex;
+	justify-content: right;
+}
+
+.time_buttons{
+	position: absolute;
+	left: 35px;
+	right: 35px;
+	width: 415.5px;
+	height: 40px;
+	border: none;
+	font-family: "Sochi";
+	font-size: 18px;
+	color: var(--sfont);
+	cursor: pointer;
+}
+
+.time_buttons_green{
+	background-color: var(--green);
+}
+
+.time_buttons_blue{
+	background-color: var(--blue);
+}
+
+.time_buttons:hover{
+	background-color: var(--active);
+}
+
+.time_buttons:active{
+	background-color: var(--pink);
+}
+
+.timeB1{top: 160px;}
+.timeB2{top: 205px;}
+.timeB3{top: 250px;}
+.timeB4{top: 295px;}
+.timeB5{top: 340px;}
+.timeB6{top: 385px;}
+
+.tag{
+	background-color: var(--yellow);
+	height: 25px;
+	margin-left: 2px;
+	font-family: "Sochi";
+	font-size: 18px;
+	color: var(--ffont);
+	padding-left: 4px;
+	padding-right: 4px;
+	cursor: pointer;
+}
+.tag:hover{
+	background-color: var(--active);
+}
+.tag:active{
+	background-color: var(--pink);
+}
+
+#dt_text01{display: none;}
+#dt_text02{display: none;}
+#dt_text03{display: none;}
+#dt_text04{display: none;}
+#dt_text05{display: none;}
+#dt_text06{display: none;}
+#dt_text07{display: none;}
+#dt_text08{display: none;}
+#dt_text09{display: none;}
+#dt_text010{display: none;}
+#dt_text011{display: none;}
+#dt_text012{display: none;}
+#dt_text013{display: none;}
+#dt_text014{display: none;}
+
+#fback{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	width: 412.5px;
+	top: 620px;
+	background-color: var(--purple);
+}
+
+#fback:hover{
+	background-color: var(--active);
+}
+
+#fback:active{
+	background-color: var(--pink);
+}
+
+.NoneBack{
+	position: absolute;
+	width: 1000px;
+	height: 150px;
+	top: 100px;
+	font-family: "Sochi";
+	font-size: 36px;
+	color: var(--sfont);
+	text-align: center;
+	display: none;
+}

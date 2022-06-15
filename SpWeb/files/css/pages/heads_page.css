@@ -1,0 +1,86 @@
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 1010px;
+}
+
+.back{
+	position: relative;
+	width: 100%;
+	height: 635px;
+	background-color: var(--back);
+}
+
+.list1{
+	position: absolute;
+	width: 1500px;
+	height: 55px;
+	top: 35px;
+}
+
+.list2{
+	position: absolute;
+	width: 732.5px;
+	height: 510px;
+	top: 125px;
+	left: 0px;
+}
+
+.list3{
+	position: absolute;
+	width: 732.5px;
+	height: 510px;
+	top: 125px;
+	right: 0px;
+}
+
+.n-btn{
+	position: absolute;
+	width: 340px;
+	height: 50px;
+	left: 35px;
+	bottom: 35px;
+}
+
+.head_text{
+	width: 100%;
+	font-family: "Sochi";
+	font-size: 42px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.zg_text{
+	position: absolute;
+	height: 40px;
+	left: 35px;
+	right: 35px;
+	top: 35px;
+	background-color: var(--purple);
+	font-family: "Sochi";
+	font-size: 30px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.cl_text{
+	position: absolute;
+	height: 80px;
+	left: 40px;
+	right: 35px;
+	top: 110px;
+	/*background-color: yellow;*/
+	font-family: "Sochi";
+	font-size: 20px;
+	color: var(--ffont);
+	text-align: left;
+}
+
+.sl_img{
+	position: absolute;
+	height: 160px;
+	left: 35px;
+	right: 35px;
+	top: 225px;
+}

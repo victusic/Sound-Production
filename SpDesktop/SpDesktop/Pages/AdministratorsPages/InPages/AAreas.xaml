@@ -1,0 +1,36 @@
+﻿<Page x:Class="SpDesktop.Pages.AdministratorsPages.InPages.AAreas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SpDesktop.Pages.AdministratorsPages.InPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AAreas">
+
+    <Grid>
+        <TextBox Name="SearchBox" Style="{DynamicResource Inputs}" Height="35"
+                     TextChanged="SearchBox_TextChanged" Margin="15, 15, 15,0" VerticalAlignment="Top"
+                 BorderThickness="0,0,0,1" FontSize="26"/>
+        <DataGrid Name="DGrid" AutoGenerateColumns="False" Margin="15, 65, 15, 15" IsReadOnly="True" IsVisibleChanged="DGrid_IsVisibleChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="№" Width="35" Binding="{Binding AreaId}"/>
+                <DataGridTextColumn Header="Имя" Width="100" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Продюсер" Width="30" Binding="{Binding Representative}"/>
+                <DataGridTextColumn Header="Описание" Width="*" Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="Группа" Width="*" Binding="{Binding DescriptionGroups}"/>
+                <DataGridTextColumn Header="Локация" Width="*" Binding="{Binding Location}"/>
+                <DataGridTemplateColumn Header="Подробнее" Width="80">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BanUser" Content="Подробнее" Click="BanUser_Click" Style="{DynamicResource DGridButton}"></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Name="Text55" Content="Данные не найдены" FontSize="32" Style="{DynamicResource Sfont}"
+                   FontFamily="Arial" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   HorizontalContentAlignment="Center"></Label>
+    </Grid>
+</Page>

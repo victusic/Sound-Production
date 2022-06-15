@@ -1,0 +1,60 @@
+body{
+	cursor: wait;
+}
+
+.base{
+	background-color: var(--back);
+	position: relative;
+	width: 1500px;
+	height: 910px; /*1160*/
+}
+
+.back{
+	position: relative;
+	margin-top: 40px;
+	width: 100%;
+	height: 745px;
+	background-image: url('../../img/slider/1.jpg');
+	background-size: cover;
+}
+
+.list1{
+	position: absolute;
+	width: 1500px;
+	height: 600px;
+	top: 35px;
+}
+
+.intro{
+	position: absolute;
+	top: 250px;
+	width: 500px;
+	height: 400px;
+	background-color: var(--panl);
+	z-index: 1000;"
+}
+
+.intro-text{
+	position: absolute;
+	top: 20px;
+	width: 500px;
+	height: 50px;
+	font-family: "Sochi";
+	font-size: 40px;
+	color: var(--sfont);
+	text-align: center;
+}
+
+.pad{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#preloader_login{
+	position: absolute;
+	top: 100px;
+	left: 120px;
+	width: 260px;
+	height: 260px;
+}
